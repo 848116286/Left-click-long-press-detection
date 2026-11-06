@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "criteria": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "bot":{
+                                "lmb_hold": 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "lmb_hold_bot:while_holding_rmb"
+    }
+}
