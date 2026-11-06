@@ -61,6 +61,12 @@
                                     "attack_animation",
                                     "enchantments"
                                 ]
+                            },
+                            "consumable": {
+                                "animation": "none",
+                                "consume_seconds": 0,
+                                "sound": "intentionally_empty",
+                                "has_consume_particles": false
                             }
                         }
                     }

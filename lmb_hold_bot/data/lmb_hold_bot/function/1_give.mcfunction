@@ -1,1 +1,1 @@
-loot give @p loot lmb_hold_bot:test_lmb_hold
+loot give @p loot lmb_hold_bot:test_rmb_hold
