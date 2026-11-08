@@ -1,0 +1,28 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "cases": [
+            {
+                "when": "stick",
+                "model": {
+                    "type": "model",
+                    "model": "item/stick"
+                }
+            },
+            {
+                "when": "air",
+                "model": {
+                    "type": "model",
+                    "model": "item/air"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/stick"
+        }
+    },
+    "hand_animation_on_swap": false,
+    "swap_animation_scale": 0
+}

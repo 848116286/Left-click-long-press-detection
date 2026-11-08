@@ -1,0 +1,28 @@
+{
+    "anvil_cost": 0,
+    "description": [""],
+    "effects": {
+        "post_piercing_attack": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "lmb_hold_bot:holding/l_click"
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "hand"
+    ],
+    "supported_items": ["command_block_minecart"],
+    "weight": 1
+}

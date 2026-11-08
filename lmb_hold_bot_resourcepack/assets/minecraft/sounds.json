@@ -1,0 +1,8 @@
+{
+  "block.stone.hit": {
+    "replace": true,
+    "sounds": [
+      "custom/silence"
+    ]
+  }
+}
