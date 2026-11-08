@@ -1,1 +1,0 @@
-loot give @p loot lmb_hold_bot:test_rmb_hold
