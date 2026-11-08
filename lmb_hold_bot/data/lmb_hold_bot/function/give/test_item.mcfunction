@@ -1,1 +1,2 @@
 loot give @s loot lmb_hold_bot:rmb_hold
+

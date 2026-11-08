@@ -3,5 +3,5 @@ data modify storage bot:lmb_hold macro.cmd set compute default integer {type:"un
 #アイテムのcomponentを変更することで、前tickと別のアイテムであると認識するのでhit_blockが再度実行される。
 function lmb_hold_bot:system/change_item_component with storage bot:lmb_hold macro
 #スコアを加算
-scoreboard players add @s lmbhb.va 1
-tellraw @s ["",{"text":"左クリック",color:red},{"text":"長押ししているtick数: "},{"score":{name:"@s",objective:"lmbhb.va"},color:"green"}]
+scoreboard players add @s lmbhb.vla 1
+tellraw @s ["",{"text":"左クリック",color:red},{"text":"長押ししているtick数: "},{"score":{name:"@s",objective:"lmbhb.vla"},color:"green"}]
