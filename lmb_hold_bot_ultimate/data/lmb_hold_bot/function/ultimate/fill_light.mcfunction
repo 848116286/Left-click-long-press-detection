@@ -1,0 +1,22 @@
+execute if block ~ ~ ~ tall_grass[half=upper] run function lmb_hold_bot:ultimate/grass/tall_grass_upper/bd
+execute if block ~ ~ ~ ladder[facing=north] run function lmb_hold_bot:ultimate/ladder/north
+execute if block ~ ~ ~ ladder[facing=east] run function lmb_hold_bot:ultimate/ladder/east
+execute if block ~ ~ ~ ladder[facing=west] run function lmb_hold_bot:ultimate/ladder/west
+execute if block ~ ~ ~ ladder[facing=south] run function lmb_hold_bot:ultimate/ladder/south
+execute if block ~ ~ ~ iron_bars[east=false,north=false,south=false,west=false] run function lmb_hold_bot:ultimate/iron_bars/0000
+execute if block ~ ~ ~ iron_bars[east=false,north=false,south=false,west=true] run function lmb_hold_bot:ultimate/iron_bars/0001
+execute if block ~ ~ ~ iron_bars[east=false,north=false,south=true,west=false] run function lmb_hold_bot:ultimate/iron_bars/0010
+execute if block ~ ~ ~ iron_bars[east=false,north=false,south=true,west=true] run function lmb_hold_bot:ultimate/iron_bars/0011
+execute if block ~ ~ ~ iron_bars[east=false,north=true,south=false,west=false] run function lmb_hold_bot:ultimate/iron_bars/0100
+execute if block ~ ~ ~ iron_bars[east=false,north=true,south=false,west=true] run function lmb_hold_bot:ultimate/iron_bars/0101
+execute if block ~ ~ ~ iron_bars[east=false,north=true,south=true,west=false] run function lmb_hold_bot:ultimate/iron_bars/0110
+execute if block ~ ~ ~ iron_bars[east=false,north=true,south=true,west=true] run function lmb_hold_bot:ultimate/iron_bars/0111
+execute if block ~ ~ ~ iron_bars[east=true,north=false,south=false,west=false] run function lmb_hold_bot:ultimate/iron_bars/1000
+execute if block ~ ~ ~ iron_bars[east=true,north=false,south=false,west=true] run function lmb_hold_bot:ultimate/iron_bars/1001
+execute if block ~ ~ ~ iron_bars[east=true,north=false,south=true,west=false] run function lmb_hold_bot:ultimate/iron_bars/1010
+execute if block ~ ~ ~ iron_bars[east=true,north=false,south=true,west=true] run function lmb_hold_bot:ultimate/iron_bars/1011
+execute if block ~ ~ ~ iron_bars[east=true,north=true,south=false,west=false] run function lmb_hold_bot:ultimate/iron_bars/1100
+execute if block ~ ~ ~ iron_bars[east=true,north=true,south=false,west=true] run function lmb_hold_bot:ultimate/iron_bars/1101
+execute if block ~ ~ ~ iron_bars[east=true,north=true,south=true,west=false] run function lmb_hold_bot:ultimate/iron_bars/1110
+execute if block ~ ~ ~ iron_bars[east=true,north=true,south=true,west=true] run function lmb_hold_bot:ultimate/iron_bars/1111
+
