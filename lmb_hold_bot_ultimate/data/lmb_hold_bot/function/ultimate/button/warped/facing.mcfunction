@@ -1,0 +1,12 @@
+execute if block ~ ~ ~ warped_button[face=ceiling,facing=east] run function lmb_hold_bot:ultimate/button/warped/ceiling/e
+execute if block ~ ~ ~ warped_button[face=ceiling,facing=north] run function lmb_hold_bot:ultimate/button/warped/ceiling/n
+execute if block ~ ~ ~ warped_button[face=ceiling,facing=south] run function lmb_hold_bot:ultimate/button/warped/ceiling/s
+execute if block ~ ~ ~ warped_button[face=ceiling,facing=west] run function lmb_hold_bot:ultimate/button/warped/ceiling/w
+execute if block ~ ~ ~ warped_button[face=floor,facing=east] run function lmb_hold_bot:ultimate/button/warped/floor/e
+execute if block ~ ~ ~ warped_button[face=floor,facing=north] run function lmb_hold_bot:ultimate/button/warped/floor/n
+execute if block ~ ~ ~ warped_button[face=floor,facing=south] run function lmb_hold_bot:ultimate/button/warped/floor/s
+execute if block ~ ~ ~ warped_button[face=floor,facing=west] run function lmb_hold_bot:ultimate/button/warped/floor/w
+execute if block ~ ~ ~ warped_button[face=wall,facing=east] run function lmb_hold_bot:ultimate/button/warped/wall/e
+execute if block ~ ~ ~ warped_button[face=wall,facing=north] run function lmb_hold_bot:ultimate/button/warped/wall/n
+execute if block ~ ~ ~ warped_button[face=wall,facing=south] run function lmb_hold_bot:ultimate/button/warped/wall/s
+execute if block ~ ~ ~ warped_button[face=wall,facing=west] run function lmb_hold_bot:ultimate/button/warped/wall/w

@@ -1,0 +1,12 @@
+execute if block ~ ~ ~ poplar_button[face=ceiling,facing=east] run function lmb_hold_bot:ultimate/button/poplar/ceiling/e
+execute if block ~ ~ ~ poplar_button[face=ceiling,facing=north] run function lmb_hold_bot:ultimate/button/poplar/ceiling/n
+execute if block ~ ~ ~ poplar_button[face=ceiling,facing=south] run function lmb_hold_bot:ultimate/button/poplar/ceiling/s
+execute if block ~ ~ ~ poplar_button[face=ceiling,facing=west] run function lmb_hold_bot:ultimate/button/poplar/ceiling/w
+execute if block ~ ~ ~ poplar_button[face=floor,facing=east] run function lmb_hold_bot:ultimate/button/poplar/floor/e
+execute if block ~ ~ ~ poplar_button[face=floor,facing=north] run function lmb_hold_bot:ultimate/button/poplar/floor/n
+execute if block ~ ~ ~ poplar_button[face=floor,facing=south] run function lmb_hold_bot:ultimate/button/poplar/floor/s
+execute if block ~ ~ ~ poplar_button[face=floor,facing=west] run function lmb_hold_bot:ultimate/button/poplar/floor/w
+execute if block ~ ~ ~ poplar_button[face=wall,facing=east] run function lmb_hold_bot:ultimate/button/poplar/wall/e
+execute if block ~ ~ ~ poplar_button[face=wall,facing=north] run function lmb_hold_bot:ultimate/button/poplar/wall/n
+execute if block ~ ~ ~ poplar_button[face=wall,facing=south] run function lmb_hold_bot:ultimate/button/poplar/wall/s
+execute if block ~ ~ ~ poplar_button[face=wall,facing=west] run function lmb_hold_bot:ultimate/button/poplar/wall/w

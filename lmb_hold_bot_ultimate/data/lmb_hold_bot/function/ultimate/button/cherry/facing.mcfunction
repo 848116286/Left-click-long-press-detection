@@ -1,0 +1,12 @@
+execute if block ~ ~ ~ cherry_button[face=ceiling,facing=east] run function lmb_hold_bot:ultimate/button/cherry/ceiling/e
+execute if block ~ ~ ~ cherry_button[face=ceiling,facing=north] run function lmb_hold_bot:ultimate/button/cherry/ceiling/n
+execute if block ~ ~ ~ cherry_button[face=ceiling,facing=south] run function lmb_hold_bot:ultimate/button/cherry/ceiling/s
+execute if block ~ ~ ~ cherry_button[face=ceiling,facing=west] run function lmb_hold_bot:ultimate/button/cherry/ceiling/w
+execute if block ~ ~ ~ cherry_button[face=floor,facing=east] run function lmb_hold_bot:ultimate/button/cherry/floor/e
+execute if block ~ ~ ~ cherry_button[face=floor,facing=north] run function lmb_hold_bot:ultimate/button/cherry/floor/n
+execute if block ~ ~ ~ cherry_button[face=floor,facing=south] run function lmb_hold_bot:ultimate/button/cherry/floor/s
+execute if block ~ ~ ~ cherry_button[face=floor,facing=west] run function lmb_hold_bot:ultimate/button/cherry/floor/w
+execute if block ~ ~ ~ cherry_button[face=wall,facing=east] run function lmb_hold_bot:ultimate/button/cherry/wall/e
+execute if block ~ ~ ~ cherry_button[face=wall,facing=north] run function lmb_hold_bot:ultimate/button/cherry/wall/n
+execute if block ~ ~ ~ cherry_button[face=wall,facing=south] run function lmb_hold_bot:ultimate/button/cherry/wall/s
+execute if block ~ ~ ~ cherry_button[face=wall,facing=west] run function lmb_hold_bot:ultimate/button/cherry/wall/w

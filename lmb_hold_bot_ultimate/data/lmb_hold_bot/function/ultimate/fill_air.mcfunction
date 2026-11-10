@@ -1,26 +1,22 @@
-execute as @s[tag=zzgrass] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ tall_grass[half=upper] strict
-execute as @s[tag=zzladdereast] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ ladder[facing=east] strict
-execute as @s[tag=zzladderwest] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ ladder[facing=west] strict
-execute as @s[tag=zzladdernorth] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ ladder[facing=north] strict
-execute as @s[tag=zzladdersouth] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ ladder[facing=south] strict
-execute as @s[tag=zzironbars0000] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ iron_bars[east=false,north=false,south=false,west=false] strict
-execute as @s[tag=zzironbars0001] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ iron_bars[east=false,north=false,south=false,west=true] strict
-execute as @s[tag=zzironbars0010] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ iron_bars[east=false,north=false,south=true,west=false] strict
-execute as @s[tag=zzironbars0011] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ iron_bars[east=false,north=false,south=true,west=true] strict
-execute as @s[tag=zzironbars0100] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ iron_bars[east=false,north=true,south=false,west=false] strict
-execute as @s[tag=zzironbars0101] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ iron_bars[east=false,north=true,south=false,west=true] strict
-execute as @s[tag=zzironbars0110] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ iron_bars[east=false,north=true,south=true,west=false] strict
-execute as @s[tag=zzironbars0111] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ iron_bars[east=false,north=true,south=true,west=true] strict
-execute as @s[tag=zzironbars1000] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ iron_bars[east=true,north=false,south=false,west=false] strict
-execute as @s[tag=zzironbars1001] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ iron_bars[east=true,north=false,south=false,west=true] strict
-execute as @s[tag=zzironbars1010] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ iron_bars[east=true,north=false,south=true,west=false] strict
-execute as @s[tag=zzironbars1011] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ iron_bars[east=true,north=false,south=true,west=true] strict
-execute as @s[tag=zzironbars1100] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ iron_bars[east=true,north=true,south=false,west=false] strict
-execute as @s[tag=zzironbars1101] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ iron_bars[east=true,north=true,south=false,west=true] strict
-execute as @s[tag=zzironbars1110] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ iron_bars[east=true,north=true,south=true,west=false] strict
-execute as @s[tag=zzironbars1111] if block ~ ~ ~ light[level=0] run fill ~ ~ ~ ~ ~ ~ iron_bars[east=true,north=true,south=true,west=true] strict
-
-
+execute if entity @s[tag=zzgrass] run setblock ~ ~ ~ tall_grass[half=upper] strict
+execute if entity @s[tag=zzladder] run function lmb_hold_bot:ultimate/fill_air/ladder
+execute if entity @s[tag=zzironbars] run function lmb_hold_bot:ultimate/fill_air/iron_bars
+execute if entity @s[tag=zzwater] if block ~ ~ ~ light[waterlogged=true,level=0] run setblock ~ ~ ~ water strict
+execute if entity @s[tag=zzbutton_oak] run function lmb_hold_bot:ultimate/fill_air/oak_button
+execute if entity @s[tag=zzbutton_stone] run function lmb_hold_bot:ultimate/fill_air/stone_button
+execute if entity @s[tag=zzbutton_spruce] run function lmb_hold_bot:ultimate/fill_air/spruce_button
+execute if entity @s[tag=zzbutton_birch] run function lmb_hold_bot:ultimate/fill_air/birch_button
+execute if entity @s[tag=zzbutton_jungle] run function lmb_hold_bot:ultimate/fill_air/jungle_button
+execute if entity @s[tag=zzbutton_acacia] run function lmb_hold_bot:ultimate/fill_air/acacia_button
+execute if entity @s[tag=zzbutton_dark_oak] run function lmb_hold_bot:ultimate/fill_air/dark_oak_button
+execute if entity @s[tag=zzbutton_pale_oak] run function lmb_hold_bot:ultimate/fill_air/pale_oak_button
+execute if entity @s[tag=zzbutton_crimson] run function lmb_hold_bot:ultimate/fill_air/crimson_button
+execute if entity @s[tag=zzbutton_warped] run function lmb_hold_bot:ultimate/fill_air/warped_button
+execute if entity @s[tag=zzbutton_mangrove] run function lmb_hold_bot:ultimate/fill_air/mangrove_button
+execute if entity @s[tag=zzbutton_bamboo] run function lmb_hold_bot:ultimate/fill_air/bamboo_button
+execute if entity @s[tag=zzbutton_cherry] run function lmb_hold_bot:ultimate/fill_air/cherry_button
+execute if entity @s[tag=zzbutton_poplar] run function lmb_hold_bot:ultimate/fill_air/poplar_button
+execute if entity @s[tag=zzbutton_polished_blackstone] run function lmb_hold_bot:ultimate/fill_air/polished_blackstone_button
 
 
 

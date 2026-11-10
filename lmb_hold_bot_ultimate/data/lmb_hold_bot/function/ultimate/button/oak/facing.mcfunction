@@ -1,0 +1,12 @@
+execute if block ~ ~ ~ oak_button[face=ceiling,facing=east] run function lmb_hold_bot:ultimate/button/oak/ceiling/e
+execute if block ~ ~ ~ oak_button[face=ceiling,facing=north] run function lmb_hold_bot:ultimate/button/oak/ceiling/n
+execute if block ~ ~ ~ oak_button[face=ceiling,facing=south] run function lmb_hold_bot:ultimate/button/oak/ceiling/s
+execute if block ~ ~ ~ oak_button[face=ceiling,facing=west] run function lmb_hold_bot:ultimate/button/oak/ceiling/w
+execute if block ~ ~ ~ oak_button[face=floor,facing=east] run function lmb_hold_bot:ultimate/button/oak/floor/e
+execute if block ~ ~ ~ oak_button[face=floor,facing=north] run function lmb_hold_bot:ultimate/button/oak/floor/n
+execute if block ~ ~ ~ oak_button[face=floor,facing=south] run function lmb_hold_bot:ultimate/button/oak/floor/s
+execute if block ~ ~ ~ oak_button[face=floor,facing=west] run function lmb_hold_bot:ultimate/button/oak/floor/w
+execute if block ~ ~ ~ oak_button[face=wall,facing=east] run function lmb_hold_bot:ultimate/button/oak/wall/e
+execute if block ~ ~ ~ oak_button[face=wall,facing=north] run function lmb_hold_bot:ultimate/button/oak/wall/n
+execute if block ~ ~ ~ oak_button[face=wall,facing=south] run function lmb_hold_bot:ultimate/button/oak/wall/s
+execute if block ~ ~ ~ oak_button[face=wall,facing=west] run function lmb_hold_bot:ultimate/button/oak/wall/w

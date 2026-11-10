@@ -1,0 +1,12 @@
+execute if block ~ ~ ~ spruce_button[face=ceiling,facing=east] run function lmb_hold_bot:ultimate/button/spruce/ceiling/e
+execute if block ~ ~ ~ spruce_button[face=ceiling,facing=north] run function lmb_hold_bot:ultimate/button/spruce/ceiling/n
+execute if block ~ ~ ~ spruce_button[face=ceiling,facing=south] run function lmb_hold_bot:ultimate/button/spruce/ceiling/s
+execute if block ~ ~ ~ spruce_button[face=ceiling,facing=west] run function lmb_hold_bot:ultimate/button/spruce/ceiling/w
+execute if block ~ ~ ~ spruce_button[face=floor,facing=east] run function lmb_hold_bot:ultimate/button/spruce/floor/e
+execute if block ~ ~ ~ spruce_button[face=floor,facing=north] run function lmb_hold_bot:ultimate/button/spruce/floor/n
+execute if block ~ ~ ~ spruce_button[face=floor,facing=south] run function lmb_hold_bot:ultimate/button/spruce/floor/s
+execute if block ~ ~ ~ spruce_button[face=floor,facing=west] run function lmb_hold_bot:ultimate/button/spruce/floor/w
+execute if block ~ ~ ~ spruce_button[face=wall,facing=east] run function lmb_hold_bot:ultimate/button/spruce/wall/e
+execute if block ~ ~ ~ spruce_button[face=wall,facing=north] run function lmb_hold_bot:ultimate/button/spruce/wall/n
+execute if block ~ ~ ~ spruce_button[face=wall,facing=south] run function lmb_hold_bot:ultimate/button/spruce/wall/s
+execute if block ~ ~ ~ spruce_button[face=wall,facing=west] run function lmb_hold_bot:ultimate/button/spruce/wall/w

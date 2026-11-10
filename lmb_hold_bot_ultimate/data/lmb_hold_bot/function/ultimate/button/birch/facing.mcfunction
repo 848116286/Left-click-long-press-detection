@@ -1,0 +1,12 @@
+execute if block ~ ~ ~ birch_button[face=ceiling,facing=east] run function lmb_hold_bot:ultimate/button/birch/ceiling/e
+execute if block ~ ~ ~ birch_button[face=ceiling,facing=north] run function lmb_hold_bot:ultimate/button/birch/ceiling/n
+execute if block ~ ~ ~ birch_button[face=ceiling,facing=south] run function lmb_hold_bot:ultimate/button/birch/ceiling/s
+execute if block ~ ~ ~ birch_button[face=ceiling,facing=west] run function lmb_hold_bot:ultimate/button/birch/ceiling/w
+execute if block ~ ~ ~ birch_button[face=floor,facing=east] run function lmb_hold_bot:ultimate/button/birch/floor/e
+execute if block ~ ~ ~ birch_button[face=floor,facing=north] run function lmb_hold_bot:ultimate/button/birch/floor/n
+execute if block ~ ~ ~ birch_button[face=floor,facing=south] run function lmb_hold_bot:ultimate/button/birch/floor/s
+execute if block ~ ~ ~ birch_button[face=floor,facing=west] run function lmb_hold_bot:ultimate/button/birch/floor/w
+execute if block ~ ~ ~ birch_button[face=wall,facing=east] run function lmb_hold_bot:ultimate/button/birch/wall/e
+execute if block ~ ~ ~ birch_button[face=wall,facing=north] run function lmb_hold_bot:ultimate/button/birch/wall/n
+execute if block ~ ~ ~ birch_button[face=wall,facing=south] run function lmb_hold_bot:ultimate/button/birch/wall/s
+execute if block ~ ~ ~ birch_button[face=wall,facing=west] run function lmb_hold_bot:ultimate/button/birch/wall/w

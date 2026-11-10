@@ -1,0 +1,16 @@
+execute if entity @s[tag=zz0000] run setblock ~ ~ ~ iron_bars[east=false,north=false,south=false,west=false] strict
+execute if entity @s[tag=zz0001] run setblock ~ ~ ~ iron_bars[east=false,north=false,south=false,west=true] strict
+execute if entity @s[tag=zz0010] run setblock ~ ~ ~ iron_bars[east=false,north=false,south=true,west=false] strict
+execute if entity @s[tag=zz0011] run setblock ~ ~ ~ iron_bars[east=false,north=false,south=true,west=true] strict
+execute if entity @s[tag=zz0100] run setblock ~ ~ ~ iron_bars[east=false,north=true,south=false,west=false] strict
+execute if entity @s[tag=zz0101] run setblock ~ ~ ~ iron_bars[east=false,north=true,south=false,west=true] strict
+execute if entity @s[tag=zz0110] run setblock ~ ~ ~ iron_bars[east=false,north=true,south=true,west=false] strict
+execute if entity @s[tag=zz0111] run setblock ~ ~ ~ iron_bars[east=false,north=true,south=true,west=true] strict
+execute if entity @s[tag=zz1000] run setblock ~ ~ ~ iron_bars[east=true,north=false,south=false,west=false] strict
+execute if entity @s[tag=zz1001] run setblock ~ ~ ~ iron_bars[east=true,north=false,south=false,west=true] strict
+execute if entity @s[tag=zz1010] run setblock ~ ~ ~ iron_bars[east=true,north=false,south=true,west=false] strict
+execute if entity @s[tag=zz1011] run setblock ~ ~ ~ iron_bars[east=true,north=false,south=true,west=true] strict
+execute if entity @s[tag=zz1100] run setblock ~ ~ ~ iron_bars[east=true,north=true,south=false,west=false] strict
+execute if entity @s[tag=zz1101] run setblock ~ ~ ~ iron_bars[east=true,north=true,south=false,west=true] strict
+execute if entity @s[tag=zz1110] run setblock ~ ~ ~ iron_bars[east=true,north=true,south=true,west=false] strict
+execute if entity @s[tag=zz1111] run setblock ~ ~ ~ iron_bars[east=true,north=true,south=true,west=true] strict

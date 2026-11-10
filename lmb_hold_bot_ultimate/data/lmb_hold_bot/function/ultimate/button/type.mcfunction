@@ -1,0 +1,15 @@
+execute if block ~ ~ ~ oak_button run function lmb_hold_bot:ultimate/button/oak/facing
+execute if block ~ ~ ~ stone_button run function lmb_hold_bot:ultimate/button/stone/facing
+execute if block ~ ~ ~ spruce_button run function lmb_hold_bot:ultimate/button/spruce/facing
+execute if block ~ ~ ~ birch_button run function lmb_hold_bot:ultimate/button/birch/facing
+execute if block ~ ~ ~ jungle_button run function lmb_hold_bot:ultimate/button/jungle/facing
+execute if block ~ ~ ~ acacia_button run function lmb_hold_bot:ultimate/button/acacia/facing
+execute if block ~ ~ ~ dark_oak_button run function lmb_hold_bot:ultimate/button/dark_oak/facing
+execute if block ~ ~ ~ pale_oak_button run function lmb_hold_bot:ultimate/button/pale_oak/facing
+execute if block ~ ~ ~ crimson_button run function lmb_hold_bot:ultimate/button/crimson/facing
+execute if block ~ ~ ~ warped_button run function lmb_hold_bot:ultimate/button/warped/facing
+execute if block ~ ~ ~ mangrove_button run function lmb_hold_bot:ultimate/button/mangrove/facing
+execute if block ~ ~ ~ bamboo_button run function lmb_hold_bot:ultimate/button/bamboo/facing
+execute if block ~ ~ ~ cherry_button run function lmb_hold_bot:ultimate/button/cherry/facing
+execute if block ~ ~ ~ poplar_button run function lmb_hold_bot:ultimate/button/poplar/facing
+execute if block ~ ~ ~ polished_blackstone_button run function lmb_hold_bot:ultimate/button/polished_blackstone/facing

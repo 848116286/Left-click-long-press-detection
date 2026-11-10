@@ -1,0 +1,12 @@
+execute if block ~ ~ ~ jungle_button[face=ceiling,facing=east] run function lmb_hold_bot:ultimate/button/jungle/ceiling/e
+execute if block ~ ~ ~ jungle_button[face=ceiling,facing=north] run function lmb_hold_bot:ultimate/button/jungle/ceiling/n
+execute if block ~ ~ ~ jungle_button[face=ceiling,facing=south] run function lmb_hold_bot:ultimate/button/jungle/ceiling/s
+execute if block ~ ~ ~ jungle_button[face=ceiling,facing=west] run function lmb_hold_bot:ultimate/button/jungle/ceiling/w
+execute if block ~ ~ ~ jungle_button[face=floor,facing=east] run function lmb_hold_bot:ultimate/button/jungle/floor/e
+execute if block ~ ~ ~ jungle_button[face=floor,facing=north] run function lmb_hold_bot:ultimate/button/jungle/floor/n
+execute if block ~ ~ ~ jungle_button[face=floor,facing=south] run function lmb_hold_bot:ultimate/button/jungle/floor/s
+execute if block ~ ~ ~ jungle_button[face=floor,facing=west] run function lmb_hold_bot:ultimate/button/jungle/floor/w
+execute if block ~ ~ ~ jungle_button[face=wall,facing=east] run function lmb_hold_bot:ultimate/button/jungle/wall/e
+execute if block ~ ~ ~ jungle_button[face=wall,facing=north] run function lmb_hold_bot:ultimate/button/jungle/wall/n
+execute if block ~ ~ ~ jungle_button[face=wall,facing=south] run function lmb_hold_bot:ultimate/button/jungle/wall/s
+execute if block ~ ~ ~ jungle_button[face=wall,facing=west] run function lmb_hold_bot:ultimate/button/jungle/wall/w

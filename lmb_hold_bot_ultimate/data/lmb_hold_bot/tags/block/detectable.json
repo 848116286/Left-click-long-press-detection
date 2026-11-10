@@ -2,6 +2,9 @@
     "values": [
         "tall_grass",
         "ladder",
-        "iron_bars"
+        "iron_bars",
+        "water",
+        "#wooden_buttons",
+        "#stone_buttons"
     ]
 }

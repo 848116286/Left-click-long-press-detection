@@ -1,0 +1,12 @@
+execute if entity @s[tag=zzce] run setblock ~ ~ ~ cherry_button[face=ceiling,facing=east] strict
+execute if entity @s[tag=zzcn] run setblock ~ ~ ~ cherry_button[face=ceiling,facing=north] strict
+execute if entity @s[tag=zzcs] run setblock ~ ~ ~ cherry_button[face=ceiling,facing=south] strict
+execute if entity @s[tag=zzcw] run setblock ~ ~ ~ cherry_button[face=ceiling,facing=west] strict
+execute if entity @s[tag=zzfe] run setblock ~ ~ ~ cherry_button[face=floor,facing=east] strict
+execute if entity @s[tag=zzfn] run setblock ~ ~ ~ cherry_button[face=floor,facing=north] strict
+execute if entity @s[tag=zzfs] run setblock ~ ~ ~ cherry_button[face=floor,facing=south] strict
+execute if entity @s[tag=zzfw] run setblock ~ ~ ~ cherry_button[face=floor,facing=west] strict
+execute if entity @s[tag=zzwe] run setblock ~ ~ ~ cherry_button[face=wall,facing=east] strict
+execute if entity @s[tag=zzwn] run setblock ~ ~ ~ cherry_button[face=wall,facing=north] strict
+execute if entity @s[tag=zzws] run setblock ~ ~ ~ cherry_button[face=wall,facing=south] strict
+execute if entity @s[tag=zzww] run setblock ~ ~ ~ cherry_button[face=wall,facing=west] strict

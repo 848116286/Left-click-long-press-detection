@@ -1,0 +1,12 @@
+execute if block ~ ~ ~ crimson_button[face=ceiling,facing=east] run function lmb_hold_bot:ultimate/button/crimson/ceiling/e
+execute if block ~ ~ ~ crimson_button[face=ceiling,facing=north] run function lmb_hold_bot:ultimate/button/crimson/ceiling/n
+execute if block ~ ~ ~ crimson_button[face=ceiling,facing=south] run function lmb_hold_bot:ultimate/button/crimson/ceiling/s
+execute if block ~ ~ ~ crimson_button[face=ceiling,facing=west] run function lmb_hold_bot:ultimate/button/crimson/ceiling/w
+execute if block ~ ~ ~ crimson_button[face=floor,facing=east] run function lmb_hold_bot:ultimate/button/crimson/floor/e
+execute if block ~ ~ ~ crimson_button[face=floor,facing=north] run function lmb_hold_bot:ultimate/button/crimson/floor/n
+execute if block ~ ~ ~ crimson_button[face=floor,facing=south] run function lmb_hold_bot:ultimate/button/crimson/floor/s
+execute if block ~ ~ ~ crimson_button[face=floor,facing=west] run function lmb_hold_bot:ultimate/button/crimson/floor/w
+execute if block ~ ~ ~ crimson_button[face=wall,facing=east] run function lmb_hold_bot:ultimate/button/crimson/wall/e
+execute if block ~ ~ ~ crimson_button[face=wall,facing=north] run function lmb_hold_bot:ultimate/button/crimson/wall/n
+execute if block ~ ~ ~ crimson_button[face=wall,facing=south] run function lmb_hold_bot:ultimate/button/crimson/wall/s
+execute if block ~ ~ ~ crimson_button[face=wall,facing=west] run function lmb_hold_bot:ultimate/button/crimson/wall/w

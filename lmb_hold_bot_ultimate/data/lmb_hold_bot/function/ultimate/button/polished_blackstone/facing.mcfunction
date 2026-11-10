@@ -1,0 +1,12 @@
+execute if block ~ ~ ~ polished_blackstone_button[face=ceiling,facing=east] run function lmb_hold_bot:ultimate/button/polished_blackstone/ceiling/e
+execute if block ~ ~ ~ polished_blackstone_button[face=ceiling,facing=north] run function lmb_hold_bot:ultimate/button/polished_blackstone/ceiling/n
+execute if block ~ ~ ~ polished_blackstone_button[face=ceiling,facing=south] run function lmb_hold_bot:ultimate/button/polished_blackstone/ceiling/s
+execute if block ~ ~ ~ polished_blackstone_button[face=ceiling,facing=west] run function lmb_hold_bot:ultimate/button/polished_blackstone/ceiling/w
+execute if block ~ ~ ~ polished_blackstone_button[face=floor,facing=east] run function lmb_hold_bot:ultimate/button/polished_blackstone/floor/e
+execute if block ~ ~ ~ polished_blackstone_button[face=floor,facing=north] run function lmb_hold_bot:ultimate/button/polished_blackstone/floor/n
+execute if block ~ ~ ~ polished_blackstone_button[face=floor,facing=south] run function lmb_hold_bot:ultimate/button/polished_blackstone/floor/s
+execute if block ~ ~ ~ polished_blackstone_button[face=floor,facing=west] run function lmb_hold_bot:ultimate/button/polished_blackstone/floor/w
+execute if block ~ ~ ~ polished_blackstone_button[face=wall,facing=east] run function lmb_hold_bot:ultimate/button/polished_blackstone/wall/e
+execute if block ~ ~ ~ polished_blackstone_button[face=wall,facing=north] run function lmb_hold_bot:ultimate/button/polished_blackstone/wall/n
+execute if block ~ ~ ~ polished_blackstone_button[face=wall,facing=south] run function lmb_hold_bot:ultimate/button/polished_blackstone/wall/s
+execute if block ~ ~ ~ polished_blackstone_button[face=wall,facing=west] run function lmb_hold_bot:ultimate/button/polished_blackstone/wall/w

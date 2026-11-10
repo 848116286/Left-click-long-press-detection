@@ -1,0 +1,12 @@
+execute if block ~ ~ ~ acacia_button[face=ceiling,facing=east] run function lmb_hold_bot:ultimate/button/acacia/ceiling/e
+execute if block ~ ~ ~ acacia_button[face=ceiling,facing=north] run function lmb_hold_bot:ultimate/button/acacia/ceiling/n
+execute if block ~ ~ ~ acacia_button[face=ceiling,facing=south] run function lmb_hold_bot:ultimate/button/acacia/ceiling/s
+execute if block ~ ~ ~ acacia_button[face=ceiling,facing=west] run function lmb_hold_bot:ultimate/button/acacia/ceiling/w
+execute if block ~ ~ ~ acacia_button[face=floor,facing=east] run function lmb_hold_bot:ultimate/button/acacia/floor/e
+execute if block ~ ~ ~ acacia_button[face=floor,facing=north] run function lmb_hold_bot:ultimate/button/acacia/floor/n
+execute if block ~ ~ ~ acacia_button[face=floor,facing=south] run function lmb_hold_bot:ultimate/button/acacia/floor/s
+execute if block ~ ~ ~ acacia_button[face=floor,facing=west] run function lmb_hold_bot:ultimate/button/acacia/floor/w
+execute if block ~ ~ ~ acacia_button[face=wall,facing=east] run function lmb_hold_bot:ultimate/button/acacia/wall/e
+execute if block ~ ~ ~ acacia_button[face=wall,facing=north] run function lmb_hold_bot:ultimate/button/acacia/wall/n
+execute if block ~ ~ ~ acacia_button[face=wall,facing=south] run function lmb_hold_bot:ultimate/button/acacia/wall/s
+execute if block ~ ~ ~ acacia_button[face=wall,facing=west] run function lmb_hold_bot:ultimate/button/acacia/wall/w
