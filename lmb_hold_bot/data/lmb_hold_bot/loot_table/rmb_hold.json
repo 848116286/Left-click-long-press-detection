@@ -25,38 +25,6 @@
                                 "hit_sound": "intentionally_empty",
                                 "sound": "intentionally_empty"
                             },
-                            "attribute_modifiers": [
-                                {
-                                    "id": "lhb_bir",
-                                    "type": "block_interaction_range",
-                                    "amount": -0.99,
-                                    "operation": "add_multiplied_base",
-                                    "slot": "mainhand",
-                                    "display": {
-                                        "type": "hidden"
-                                    }
-                                },
-                                {
-                                    "id": "lhb_eir",
-                                    "type": "entity_interaction_range",
-                                    "amount": -1,
-                                    "operation": "add_multiplied_base",
-                                    "slot": "mainhand",
-                                    "display": {
-                                        "type": "hidden"
-                                    }
-                                },
-                                {
-                                    "id": "lhb_bbs",
-                                    "type": "block_break_speed",
-                                    "amount": -1,
-                                    "operation": "add_multiplied_base",
-                                    "slot": "mainhand",
-                                    "display": {
-                                        "type": "hidden"
-                                    }
-                                }
-                            ],
                             "attack_animation": {
                                 "type": "none",
                                 "duration": 1
